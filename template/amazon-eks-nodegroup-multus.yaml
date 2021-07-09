@@ -377,6 +377,7 @@ Parameters:
 
   LambdaS3Key:
     Type: String
+    Default: "lambda_function.zip"
     Description: Specify S3 Key(filename) of your Lambda Function
 
 Conditions:
